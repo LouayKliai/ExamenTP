@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ideal weiht"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#871414"
+            tools:ignore="MissingConstraints" />
+        <RadioGroup
+            android:id="@+id/radiog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="InvalidId,MissingConstraints" >
+            <RadioButton
+                android:id="@+id/feminin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feminin"
+                android:textSize="20dp"
+                />
+
+            <RadioButton
+                android:id="@+id/masculine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masculine"
+                android:textSize="20dp"
+
+                />
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/access"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Access"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
